@@ -8,8 +8,6 @@ load_dotenv(path.join(basedir, ".env"))
 
 
 class Config:
-    """Configuration from environment variables."""
-
     SECRET_KEY = environ.get("SECRET_KEY")
     FLASK_ENV = environ.get("FLASK_ENV")
     FLASK_APP = "wsgi.py"
@@ -25,8 +23,5 @@ class Config:
     TEMPLATES_FOLDER = "templates"
     COMPRESSOR_DEBUG = True
 
-    # Datadog
-    DD_SERVICE = environ.get("DD_SERVICE")
-
-    # API
-    BEST_BUY_API_KEY = environ.get("BEST_BUY_API_KEY")
+    # API Integration keys
+    UVA_API_KEY = environ.get("UVA_API_KEY")
