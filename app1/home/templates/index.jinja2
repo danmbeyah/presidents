@@ -1,0 +1,32 @@
+{% extends "layout.jinja2" %}
+
+
+{% block content %}
+  {% include "navigation.jinja2" %}
+
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <h2>{{ subtitle }}</h2>
+
+    <div class="products">
+      <p>We wish to create an interactive network of essays.  Hundreds of compositions but primarily Presidential speeches will be analyzed, in order to provide a visual representation of similarity in terms of topics, themes, sentiments, etc.  The aim is to enable users to examine clusters of speeches, and to facilitate inspection of their associations. This will provide an easy and intuitive way to compare and contrast writers, and perhaps discover common forms of variation in compositions.</p>
+
+      <p>Most archives today will organize their compositions by writer, time period, country of origin, or some other logical property of their inventory.  While this approach is constructive, it does little to facilitate user discovery of new material within the archive based on similarity of content.</p> 
+
+      <p>Natural Language Processing (NLP) is a growing body of research that is finding applications in many different fields.  By applying these methods to historic compositions, we aim to accelerate historical and literary research.  The absence of NLP tools for content association within essay databases reveals that though the tools for such analysis may exist, they have not yet been fully leveraged in this area. </p>
+
+      <p>The tool we seek to create will be of value to academics in the social sciences, students, historians, and political scientists.  Visualization may also foster greater public engagement in history or literature.</p>
+
+      <p>If successful, our product will serve as a public resource for content exploration.  Success can be evaluated by examining the degree of interest and utilization observed, and user sentiment.</p>
+
+      <p>There is a risk that we fail to implement sufficiently powerful methods within the time constraints of the course.  A bag-of-words algorithm for example may be easier to implement, but might not produce results effective enough to attract users.  A more robust model such as a neural network might be more effective, out of reach given our time constraints.  Payoffs would be widespread product adoption, and recognition for having created an academic resource. </p>
+
+      <p>We do not anticipate incurring any direct monetary costs, however we do expect a significant time investment from each of our team members. </p> 
+
+      <p>All work must naturally be completed before the end of the semester.  The number of hours we will collectively need to contribute to this project will depend on a number of factors, including: the level of functionality and sophistication we seek to equip our product with, the tools we choose to use in doing so, and the ability of our team members to deploy those tools.</p>
+
+      <p>The project will require the successful execution of data extraction, transformation, and visualization phases, which will need to occur sequentially, and will serve as milestones to evaluate project completion.  Interpreting these phases as exams, success can be measured as the degree to which preceding phases facilitate execution of subsequent phases.  Success in visualization (or final exam), will hinge upon the degree of end user utility created, which will largely be driven by success in the preceding phases.</p>
+    </div>
+  </div>
+
+{% endblock %}
