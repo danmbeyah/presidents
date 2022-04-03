@@ -14,7 +14,7 @@
     <!-- speeches is a list of dictionaries containing speeches from the json file -->
     <!-- Use this approach to fetch data from module where logic is implemented e.g visualization.py -->
     <div>
-      {% for speech in speeches %}
+      {% for speech in data.speeches %}
           <div class="name"><b>President:</b> {{ speech.president }}</div>
           <div class="name"><b>Speech Title:</b> {{ speech.title }}</div>
           <div class="name"><b>Speech Date:</b> {{ speech.date }}</div>

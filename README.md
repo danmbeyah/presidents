@@ -33,6 +33,9 @@ pip3 install flask_assets
 
 pip3 install json
 
+pip3 install nltk
+pip3 install pyLDAvis
+
 ##How to run
 
 python3 wsgi.py

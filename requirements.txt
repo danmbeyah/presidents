@@ -5,3 +5,5 @@ pip3 install requests
 pip3 install python-dotenv
 pip3 install flask_assets
 pip3 install json
+pip3 install nltk
+pip3 install pyLDAvis
